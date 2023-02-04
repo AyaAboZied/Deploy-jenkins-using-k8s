@@ -13,7 +13,7 @@ to help you not to download minikube or docker as a plugins
 Deploying a slave that have docker container if u want to run your pipline that have docker command on slave 
 
 
-## 1.1 Run Jenkins on K8S Steps:
+## Run Jenkins on K8S Steps:
 
 > 1. Apply `Jenkins` resources:
 
