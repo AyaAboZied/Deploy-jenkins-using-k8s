@@ -20,11 +20,17 @@ Deploying a slave that have docker container if u want to run your pipline that 
 ```
 kubectl apply -f jenkins
 ```
+> 2. Go to slave:
+```
+kubectl exec -it -n devops-tools name-of-yourpod   -- bash
+```
+
 > 2. Go to slave and run:
 ```
 service ssh start
 passwd jenkins
 --> 123
+chmod 666  /var/run/docker.sock
 ```
 > 4. Make sure everything is ok:
 ```
