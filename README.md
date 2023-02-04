@@ -24,7 +24,7 @@ kubectl apply -f jenkins
 ```
 service ssh start
 passwd jenkins
---> 123456
+--> 1234
 ```
 > 4. Make sure everything is ok:
 ```
